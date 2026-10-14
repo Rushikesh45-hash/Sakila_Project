@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Address Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Country Address Data</h1>
+    <button id="loadbtn">Load Data</button>
+    <div id="tables" hidden>
+        <h2>Normal Response</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Address Count</th>
+                </tr>
+            </thead>
+            <tbody id="normaltable"></tbody>
+        </table>
+
+        <h2>Response with Row Number</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Row Number</th>
+                    <th>Country</th>
+                    <th>Address Count</th>
+                </tr>
+            </thead>
+            <tbody id="numbertable"></tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
